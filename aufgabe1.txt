@@ -1,0 +1,171 @@
+Ubung 1: Logik, Mengen, Relationen
+2. Mai, 2016
+
+
+
+
+Aufgabe 1. Wahrheitstabellen (0.2 Punkte)
+
+\Annahme: `Es ist nicht so, dass der BER nicht geschlossen bleibt und TXL geschlossen
+wird. Wenn allerdings der BER nicht geschlossen bleibt, dann wird TXL geschlossen.'
+Dann gilt: `BER bleibt geschlossen.' "
+Beweisen Sie dies mittels einer Wahrheitstabelle.
+
+
+
+Lösung:
+
+
+
+
+
+
+
+
+
+
+
+Aufgabe 2. Belegungen (0.4 Punkte)
+
+\Xaver mag Anna oder er mag Daniel nicht. Auerdem mag er Berta nicht oder er mag
+Christoph. Daruber hinaus mag er Berta oder er mag Anna nicht." Formulieren Sie obige
+Aussage in logischen Formeln und geben Sie alle Belegungen an, fur die die Aussage wahr
+wird. Beachten Sie, dass samtliche `oder' hier nicht als `exklusives oder' zu verstehen
+sind. Hinweis: Es empehlt sich dabei systematisch vorzugehen, um nicht alle 24 = 16
+moglichen Belegungen testen zu mussen.
+
+
+
+Lösung:
+
+
+
+
+
+
+
+
+
+Aufgabe 3. Mengenoperationen (0.5 Punkte)
+
+
+Werten Sie den Term
+(P (fa; bg) [ ffag ; f;gg) \ P (fb; fagg)
+schrittweise aus, so dass in jedem Schritt nur ein Operator ausgewertet wird, bis keine
+Symbole auer ;; f; g; a; b und Kommata mehr im Term enthalten sind. P bezeichnet
+hier die Potenzmenge.
+
+
+
+Lösung:
+
+
+
+
+
+
+
+
+Aufgabe 4. Mengenalgebra (1.2 Punkte)
+
+
+Sei M eine beliebige Menge und seien A;B;C;D  M Teilmengen von M. Beweisen Sie
+mit den Rechenregeln der Pradikatenlogik oder widerlegen Sie mittels Gegenbeispiel die
+Gultigkeit der folgenden Aussagen.
+Hinweis: Venn-Diagramme konnen sehr hilfreich sein, um die Gultigkeit zu uberprufen.
+Als Beweis gelten sie jedoch nicht.
+1. (A n B) \ C = A n (B \ C)
+2. (A \ B) n C = (A \ B) \  C
+3. (A [ B) n C = (A n C) [ (B n C)
+4. (A  B) =) C \ A  C \ B
+Hinweis: Sie durfen verwenden, dass p ! p _ q eine Tautologie ist.
+
+
+
+
+
+Lösung:
+
+
+
+
+
+
+
+
+
+
+
+Aufgabe 5. Umformen quantisierter logischer Formeln (1.0 Punkte)
+
+Seien p, q, r und s Pradikate uber einem Universum U. Negieren Sie jede der folgenden
+Formeln. Formen Sie die dabei entstandenen Formeln dann aquivalent so um, dass kein
+Negationszeichen mehr vor einem Ausdruck mit einem Quantorensymbol oder mit mehr
+als einem Pradikat steht. Das heit, dass die Umformung noch nicht abgeschlossen ist,
+wenn die Formel einen Teil :(L) enthalt, wobei L eine logische Formel ist, die 8; 9; _; ^;!
+oder $ enthalt.
+1. 9x : (r(x) ^ 8y : (p(x) $ q(y)))
+2. 8x : (9y : (p(x; y) ! 9x0 : (q(x; x0) _ r(y; x0))))
+
+
+
+Lösung:
+
+
+
+
+
+
+
+
+
+
+Aufgabe 6. Relationen (0.5 Punkte)
+
+Gegeben seien die Mengen A = fa; b; c; d; eg und B = f1; 2; 3g.
+1. Geben Sie eine Relation R1  AA an, die symmetrisch und transitiv ist und die
+Paare (b; c) und (d; e) enthalt.
+2. Geben Sie dann eine Relation R2  B  A an, die linkseindeutig und linkstotal,
+aber nicht rechtstotal ist.
+3. Geben Sie zuletzt die Relation R3 = ((R2)􀀀1)  R1 an.
+Hinweis: Alle drei Relationen sind in aufzahlender Schreibweise anzugeben.
+
+
+Lösung:
+
+
+
+
+
+
+
+
+
+
+Aufgabe 7. Beweise (1.2 Punkte)
+
+
+Beweisen Sie
+1. Sei n eine Quadratzahl n 2
+
+k2 j k 2 N
+	
+. Wenn n gerade ist, dann ist
+p
+n ebenfalls
+gerade.
+2. 8n 2 N : n3 + 2n ist durch 3 teilbar.
+3. 8n 2 N : 3n > n2.
+Hinweis: N bezeichnet die naturlichen Zahlen inklusive der Null: N := f0; 1; 2; : : :g
+
+
+
+Lösung:
+
+
+
+
+
+
+
+

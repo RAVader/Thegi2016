@@ -42,7 +42,7 @@ A - Xaver mag Anna
 B - Xaver mag Berta
 C - Xaver mag Christoph
 D - Xaver mag Daniel
-     | ¬
+
     Xaver mag Anna oder er mag Daniel nicht. -> A || ¬D
     Auerdem mag er Berta nicht oder er mag Christoph. -> ¬B || C
     Daruber hinaus mag er Berta oder er mag Anna nicht. -> B || ¬A
@@ -66,15 +66,21 @@ Aufgabe 3. Mengenoperationen (0.5 Punkte)
 
 
 Werten Sie den Term
-(P (fa; bg) [ ffag ; f;gg) \ P (fb; fagg)
+(P({a,b}) ∪ {{a},{Ø}}) ∩ P({b,{a}})
 schrittweise aus, so dass in jedem Schritt nur ein Operator ausgewertet wird, bis keine
 Symbole auer ;; f; g; a; b und Kommata mehr im Term enthalten sind. P bezeichnet
 hier die Potenzmenge.
 
-
-
-Lösung:
-
+Lösung:     
+       (P({a,b}) ∪ {{a},{Ø}}) ∩ P({b,{a}}) =
+       	    
+       	    ({Ø,{Ø},{a},{b},{a,b}} ∪ {{a},{Ø}}) ∩ P({b,{a}}) =
+       		  
+       		  {Ø,{Ø},{a},{b},{a,b}} ∩ P({b,{a}}) =
+       		     
+       		     {Ø,{Ø},{a},{b},{a,b}} ∩ {{Ø,{b},{{a}},{b{a}}} =
+       		           
+       		           {Ø,{b}}
 
 
 
@@ -90,17 +96,26 @@ mit den Rechenregeln der Pradikatenlogik oder widerlegen Sie mittels Gegenbeisp
 Gultigkeit der folgenden Aussagen.
 Hinweis: Venn-Diagramme konnen sehr hilfreich sein, um die Gultigkeit zu uberprufen.
 Als Beweis gelten sie jedoch nicht.
-1. (A n B) \ C = A n (B \ C)
-2. (A \ B) n C = (A \ B) \  C
-3. (A [ B) n C = (A n C) [ (B n C)
-4. (A  B) =) C \ A  C \ B
+1. (A \ B) ∩ C = A \ (B ∩ C) _
+2. (A ∩ B) \ C = (A ∩ B)  ∩  C
+3. (A ∪ B) \ C = (A \ C) ∪ (B \ C)
+4. (A ⊆ B) =) C ∩ A ⊆ C ∩ B
 Hinweis: Sie durfen verwenden, dass p ! p _ q eine Tautologie ist.
-
-
-
-
-
+ 		
 Lösung:
+ 	1.(A \ B) ∩ C = A \ (B ∩ C)
+ 			    A = {0,1}  B = {0}  C ={0,2,3}
+ 		
+ 		(A \ B) ∩ C = ({0,1} \ {0}) ∩ {0,2,3} = {1} ∩ {0,2,3} = {Ø}
+ 		
+ 		A \ (B ∩ C) = {0,1}  \ ({0} ∩ {0,2,3}) = {0,1} \ {0} = {1}
+ 	
+ 						{1} != {Ø}
+	
+
+
+
+
 
 
 

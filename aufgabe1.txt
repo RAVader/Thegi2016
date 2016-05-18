@@ -38,7 +38,23 @@ moglichen Belegungen testen zu mussen.
 
 Lösung:
 
-
+A - Xaver mag Anna
+B - Xaver mag Berta
+C - Xaver mag Christoph
+D - Xaver mag Daniel
+     | ¬
+    Xaver mag Anna oder er mag Daniel nicht. -> A || ¬D
+    Auerdem mag er Berta nicht oder er mag Christoph. -> ¬B || C
+    Daruber hinaus mag er Berta oder er mag Anna nicht. -> B || ¬A
+    
+        Aussage -> (A || ¬D) & (¬B || C) & (B || ¬A)
+     
+     Aussage ist wahr, wenn
+        1. A - Wahr  B - Wahr C - Wahr D - Wahr
+        2. A - Wahr  B - Wahr C - Wahr D - Falsch
+        3. A -Falsch B-Falsch C-Falsch D - Falsch
+        4. A -Falsch B-Falsch C - Wahr D - Falsch
+        5. A -Falsch B - Wahr C - Wahr D - Falsch
 
 
 
